@@ -1,0 +1,10 @@
+#DashboardFooter {
+  border-radius: 2.5rem 2.5rem 0 0;
+  padding: 1.5rem 7.5rem;
+  background-color: var(--bg-black);
+}
+
+#DashboardFooter .copyright {
+  color: var(--text-white);
+  font-size: var(--font-x-small);
+}

@@ -1,0 +1,11 @@
+#Logo .logo {
+  height: 2rem;
+  width: 2rem;
+  /* background-color: red; */
+}
+
+#Logo span {
+  color: var(--text-white);
+  font-size: var(--font-logo);
+  margin-left: 0.75rem;
+}

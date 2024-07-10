@@ -1,0 +1,51 @@
+#DashboardNav {
+  width: 83%;
+  margin: auto;
+  padding: 1rem 1.5rem;
+  margin-top: 1.25rem;
+  background-color: var(--bg-transparent-white);
+  backdrop-filter: blur(20px);
+  border-radius: 3.75rem;
+}
+
+#DashboardNav .nav-btns {
+  display: flex;
+  gap: 2rem;
+  margin-right: 6rem;
+}
+
+#DashboardNav .nav-btns .nav-btn.active {
+  color: var(--text-purple);
+}
+
+#DashboardNav .nav-btns .nav-btn {
+  color: var(--text-white);
+  font-size: var(--font-small);
+  font-weight: bold;
+}
+
+#DashboardNav .account-overview,
+.user-profile {
+  padding: 0.25rem;
+  background-color: var(--bg-transparent-white);
+  border-radius: 3.75rem;
+}
+
+#DashboardNav .account-overview .currency-display {
+  margin-right: 0.5rem;
+}
+
+#DashboardNav .account-overview .currency-icon,
+.user-avatar {
+  width: 1.1rem;
+  height: 1.1rem;
+  /* background-color: white; */
+  margin-right: 0.25rem;
+  border-radius: 3.75rem;
+}
+
+#DashboardNav .account-overview .amount,
+.user-name {
+  color: var(--text-white);
+  font-size: var(--font-xx-small);
+}
