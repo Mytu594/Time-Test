@@ -1,5 +1,5 @@
 实现效果：
-<a href="https://sm.ms/image/DVUoCnL3axt7Gsb" target="_blank"><img src="https://s2.loli.net/2024/07/10/DVUoCnL3axt7Gsb.png" ></a>
+<a href="https://sm.ms/image/nduIo7LKpbqgFDA" target="_blank"><img src="https://s2.loli.net/2024/07/10/nduIo7LKpbqgFDA.png" ></a>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
