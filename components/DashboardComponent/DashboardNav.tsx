@@ -3,13 +3,14 @@ import './DashboardNav.css';
 import Logo from '../Logo';
 import { PiCirclesThreeFill } from "react-icons/pi";
 
+
 const DashboardNav = () => {
   return (
     <header id="DashboardNav" className="flex justify-between">
       <Logo />
       <div className="flex items-center">
         <div className="nav-btns">
-          <button className="nav-btn active">Dashboard</button>
+          <button className="nav-btn active" >Dashboard</button>
           <button className="nav-btn">Mint</button>
           <button className="nav-btn">Vault</button>
           <button className="nav-btn">Stake</button>
@@ -20,7 +21,7 @@ const DashboardNav = () => {
             <span className="amount">0,000 ETH</span>
           </div>
           <div className="user-profile flex items-center">
-            <i className="user-avatar text-[#d43494] bg-[#76f7ba]"></i>
+            <i className="user-avatar bg-[#d43494] flex items-center justify-center">人</i>
             <span className="user-name">0x12...123412</span>
           </div>
         </div>

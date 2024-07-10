@@ -8,6 +8,8 @@ import { RxSwitch } from "react-icons/rx";
 import { PiGameControllerFill } from "react-icons/pi";
 import './index.css';
 import './index.css';
+import { Covered_By_Your_Grace } from '@next/font/google';
+const font = Covered_By_Your_Grace({weight:'400',subsets: ['latin'] });
 const DashboardComponent = () => {
   return (
     <section id="Dashboard" className="h-full">
@@ -20,7 +22,8 @@ const DashboardComponent = () => {
               Toast Content Toast Content Toast Content Toast Content
             </span>
           </div>
-          <h1 className="hero-text">Dashboard</h1>
+          
+          <h1 className={"hero-text" + ' '+ font.className}>Dashboard</h1>
           <div className="grid row-gap-1 w-3/5 mx-auto">
             <div>
               <Card
