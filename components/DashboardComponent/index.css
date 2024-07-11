@@ -28,14 +28,21 @@
 }
 
 #Dashboard .content .toast {
-  background-color: var(--bg-black);
-  padding: 0.75rem;
+  /* background-color: var(--bg-black); */
+  background-color: #0C101B;
+  padding: 0.55rem 0.75rem 0 0.75rem ;
   float: right;
   border-radius: 0.5rem;
+  width: 459px;
+  height:44px;
+  gap: 8px;
+  opacity: 0px;
+  text-align: center;
 }
 
 #Dashboard .content .toast .icon {
   /* background-color: red; */
+  color: #00FFB2;
   width: 1.25rem;
   height: 1.25rem;
   margin-right: 0.5rem;
@@ -43,6 +50,26 @@
   vertical-align: middle;
 }
 #Dashboard .content .toast .toast-text {
-  color: var(--text-green);
-  font-size: var(--font-x-small);
+  /* color: var(--text-green); */
+  color: #00FFB2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  /* font-size: var(--font-x-small); */
+}
+#Dashboard .content .hero-btns button{
+  border: 1px solid white;
+  width: 52px;
+  height: 52px;
+  border-radius:100%;
+  display: inline-block;
+  padding: 10px 14px; /* 按钮内边距 */
+}
+#Dashboard .content .hero-btns button:nth-child(2){
+  padding: 10px 10px;
+}
+#Dashboard .content .hero-btns button:hover{
+  border: none;
+  background-color: #E91898;
 }

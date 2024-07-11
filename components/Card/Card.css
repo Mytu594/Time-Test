@@ -1,7 +1,7 @@
 .card {
   background-color: var(--bg-transparent-white);
   backdrop-filter: blur(20px);
-  border-radius: 0.75rem;
+  border-radius: 16px;
   padding: 1.5rem;
 }
 
@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: space-between;
   font-weight: 200;
+  gap:20px;
 }
 
 .card .list-item .list-item-icon {
@@ -37,10 +38,32 @@
 }
 .card .list-item-title .list-item-text,
 .card .list-item-title .list-item-value {
+  margin-left: 2px;
   font-weight: bold;
   font-size: var(--font-large);
 }
+
 .card .list-item .list-item-text,
 .list-item-value {
   color: var(--text-white);
+
+}
+.card .list-item .list-item-text
+ {
+font-size: 16px;
+line-height: 18px;
+text-align: left;
+ }
+.card .list-item .list-item-value{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: right;
+}
+.card .list-item .boldDeep{
+font-size: 20px;
+font-weight: 700;
+line-height: 18px;
+text-align: right;
+
 }

@@ -7,5 +7,5 @@
 #Logo span {
   color: var(--text-white);
   font-size: var(--font-logo);
-  margin-left: 0.75rem;
+  margin-left: 12px;
 }
