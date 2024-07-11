@@ -8,7 +8,7 @@ const Mfont = Montserrat({weight:'400',subsets: ['latin'] });
 const DashboardNav = () => {
   return (
     <header id="DashboardNav" className="flex justify-between">
-      <Logo fontClass={font.className} />
+      <Logo />
       <div className="flex items-center">
         <div className={"nav-btns"+" "+font.className}>
           <button className="nav-btn active" >Dashboard</button>
@@ -28,7 +28,7 @@ const DashboardNav = () => {
           </div>
           <div className="user-profile flex items-center">
             {/* <i className="user-avatar bg-[#d43494] flex items-center justify-center"></i> */}
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='mr-1'>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='mr'>
               <circle cx="12" cy="12" r="12" fill="url(#pattern0_121_36)"/>
               <defs>
               <pattern id="pattern0_121_36" patternContentUnits="objectBoundingBox" width="1" height="1">
